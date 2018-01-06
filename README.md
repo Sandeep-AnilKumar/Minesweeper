@@ -13,6 +13,8 @@ The caution tiles are then laid out to all the tiles adjacent to mines (danger),
 
 #### In a single player version, a player is playing to find out all non-mine tiles (safe plus caution tiles). Player wins if he succeeds in uncovering all non-mine tiles, loses if not.
 
+### NOTE: While giving the input for row and column numbers, separate them by a new line or space only.
+
 #### Example runs for a single-player game:
 ##### a) A losing game:
 ```
