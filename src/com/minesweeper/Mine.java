@@ -5,22 +5,22 @@ package com.minesweeper;
  */
 
 public enum Mine {
-	DANGER ('X'),
-	CAUTION ('!'),
-	SAFE ('~');
+    DANGER ('X'),
+    CAUTION ('!'),
+    SAFE ('~');
 
-	private char state;
+    private char state;
 
-	Mine(char state) {
-		this.state = state;
-	}
+    Mine(char state) {
+        this.state = state;
+    }
 
-	public char getState() {
-		return state;
-	}
+    public char getState() {
+        return state;
+    }
 
-	@Override
-	public String toString() {
-		return this.state + "";
-	}
+    @Override
+    public String toString() {
+        return this.state + "";
+    }
 }
