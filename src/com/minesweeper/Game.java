@@ -7,8 +7,6 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
-import com.minesweeper.Mine;
-
 /**
  * @author sandeepa
  */
@@ -148,7 +146,7 @@ public class Game {
                 }
 
                 if(tiles[row][col] == Mine.DANGER) {
-                    System.out.print("GAME OVER! ");
+                    System.out.print("\nGAME OVER! ");
 
                     if(players == 1) {
                         System.out.println("You lost!");
@@ -169,7 +167,14 @@ public class Game {
             }
 
             if(!result) {
-                System.out.println("The game was tied");
+                if(players > 1) {
+                    System.out.println("\nThe game was tied");
+
+                } else {
+                    System.out.println("\nYou have won!");
+                }
+
+                System.out.println(printCurrentState(true));
             }
 
             input.close();
