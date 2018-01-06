@@ -1,7 +1,7 @@
 # Minesweeper
 A minesweeper game in Java
 
-### The player can choose between number of rows and columns for the grid. And also the number of players (a maximum of 2).
+#### The player can choose between number of rows and columns for the grid. And also the number of players (a maximum of 2).
 
 The states of a mine can be:
 #### a) Danger: A mine denoted by 'X'
